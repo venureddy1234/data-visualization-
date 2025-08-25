@@ -1,0 +1,65 @@
+# Data Visualization Dashboard
+
+This project is an **interactive Data Visualization Dashboard** built with **Python, Streamlit, Pandas, and Plotly**. It allows users to explore real-world data (Gapminder dataset) with interactive filters and dynamic charts.
+
+---
+
+## 🚀 Features
+- Interactive **filters** (Year & Continent)
+- **Scatter plot** of GDP vs Life Expectancy
+- **Pie chart** of Population by Continent
+- **Line chart** showing Life Expectancy trends
+- Expandable **data table** to view filtered results
+- Built with **Streamlit** for an easy-to-use dashboard
+
+---
+
+## 🛠️ Tech Stack
+- **Python**
+- **Streamlit** → For building the dashboard UI
+- **Pandas** → For data cleaning & manipulation
+- **Plotly** → For interactive visualizations
+
+---
+
+## 📂 Project Structure
+```
+├── app.py               # Main dashboard script
+├── README.md            # Documentation
+├── requirements.txt     # Dependencies
+```
+
+### requirements.txt
+```
+streamlit==1.37.0
+pandas==2.2.2
+plotly==5.23.0
+```
+
+---
+
+## 📊 How It Works
+1. User selects a **year** and **continent(s)** from the sidebar.
+2. Data is filtered dynamically using **Pandas**.
+3. Visualizations update instantly:
+   - Scatter plot → GDP vs Life Expectancy
+   - Pie chart → Population distribution by continent
+   - Line chart → Life Expectancy over time
+
+---
+
+## ▶️ Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/your-username/data-viz-dashboard.git
+cd data-viz-dashboard
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the dashboard
+streamlit run app.py
+```
+
+
+
